@@ -4,9 +4,11 @@ package macskasitas;
 public class Macskasitas {
 
     public static void main(String[] args) {
-        Cat macska = new Cat();
+Cat Macska = new Cat("Jakab", 4);
         
-        macska.makeSound();
+        System.out.println(Macska.getNev() + " " + Macska.getSuly() + " kg");
+        
+        Macska.makeSound();
     }
     
 }

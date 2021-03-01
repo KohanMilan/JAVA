@@ -1,27 +1,26 @@
 
 package macskasitas;
 
-public class Animal {
-   private String name;
-   private int weight;
-   
-   public void makeSound(){
-       System.out.println("AAAAAA");
-   }
-
-    public String getName() {
-        return name;
+public abstract class Animal {
+private String nev;
+    private int suly;
+    
+    protected void makeSound() {
+        System.out.println("\nAAAAA");
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getNev() {
+        return nev;
     }
 
-    public int getWeight() {
-        return weight;
+    public void setNev(String nev) {
+        this.nev = nev;
     }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
+    public int getSuly() {
+        return suly;
     }
-}
+
+    public void setSuly(int suly) {
+        this.suly = suly;
+    }}
